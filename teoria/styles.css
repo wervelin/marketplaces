@@ -1,0 +1,206 @@
+body{
+    padding: 20px;
+    padding-bottom: 500px;
+}
+
+p { 
+    color: green;
+    font-size: 30px;
+}
+
+/* classes e ids */
+.meu-paragrafo { 
+    color: red;
+    background-color: black;
+}
+
+#titulo-principal {
+    background-color: yellow;
+    padding: 10px;
+    color: black;
+    font-family: Helvetica;
+}
+
+/* todos elementos, listas */
+* {
+    font-family: arial;
+}
+
+p,
+h1{
+    border-bottom: 1px solid red; 
+}
+
+/*cores*/
+.Nome-da-Cor {
+    color: pink;
+}
+
+.Hexa {
+    color: #2b4fee;
+    background-color: #333;
+}
+
+.RGB{
+    color: rgb(247, 233, 84);
+}
+
+/*tipos de fontes*/
+.serifada{
+font-family: Georgia;
+}
+
+.sem-serifa{ 
+    font-family: helvetica;
+
+}
+
+.mono-espacada{
+    font-family: 'courier new';
+
+}
+
+/*size e weight*/
+.tamanho-fonte-grande{
+    font-size: 64px;
+}
+
+.tamanho-fonte-pequena{
+    font-size: 12px;
+}
+
+.peso-fonte{
+    font-weight: 700;
+}
+
+.texto-italico{
+    font-style: italic;
+}
+
+/* Box Model*/
+.box-model{
+    width: 200px;
+    height: 100px;
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*propiedades de texto*/
+.alinhamento{
+    text-align: center;
+}
+
+.transform-minuscula{
+text-transform: lowercase;
+}
+
+.transform-maiuscula{
+    text-transform: uppercase;
+
+}
+
+/* espaçamento de linhas e letras*/
+.espacamento-texto{
+width: 150px;
+line-height: 40px;
+letter-spacing: 8px;
+
+}
+/*links*/
+.decoration {
+    text-decoration: none;
+
+}
+
+.visitado:visited{
+    color:orange
+}
+
+.estilo-hover:hover{
+ background-color: #1292ae;
+}
+
+/* Link em Button*/
+.btn{
+    background-color: #34ae43;
+    border: 3px solid #234966;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    padding: 12px 7px;
+    text-align: center;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #234966;
+}
+
+/* Listas*/
+.sem-estilo{
+    list-style: none;
+}
+
+/*display*/
+.inline{
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    margin: 5px;
+    display: inline-block;
+}
+
+.bloco{
+    display: block;
+
+}
+
+.hidden{
+    display: none;
+}
+
+/*position fixed */
+.elemento-fixo{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #1292ae;
+    border-bottom: 2px solid #342299;
+    color: white;
+}
+
+/* Pseudo Seletor*/
+.primeiro-elemento p:first-child {
+color: purple;
+font-weight: bold;
+}
+
+/*pseudo elemento*/
+.primeira-letra::first-letter{
+    color: blue;
+    font-size: 40px;
+    background-color: red;
+    padding: 4px;
+}
+/*especifidade*/
+h2 {
+    color: red;
+}
+
+.titulo {
+    color: green;
+}
+#meu-titulo-preferido{
+    color: blue;
+}
+
+/*IMPORTANT*/
+h2 {
+    color: purple !important;
+}
